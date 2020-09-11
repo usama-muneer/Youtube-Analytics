@@ -12,3 +12,10 @@ What we want from you is following.
  I have to write an ETL pipeline that will import data from all of the CSV files that contain data about events.
 # Dataset:
 The dataset for this task lie in the youtube_event_data directory in form of CSV files.
+# Questions YouTube team is interested in.
+1- Give me the youtuber, video title and video's length in the YouTube app history that was watched during
+sessionId = 338, and itemInSession = 4
+2- Give me only the following: name of youtuber, video (sorted by itemInSession) and user (first and last name) for
+userid = 10, sessionid = 182
+3- Give me every user name (first and last) in my YouTube app history who watched the video 'All Hands Against
+His Own'
